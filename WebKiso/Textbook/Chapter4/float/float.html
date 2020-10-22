@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>floatした子要素が親要素をはみ出す</title>
+		<style>
+			#wrap{
+				width:500px;
+			}
+			p{
+				background-color:#99cccc;
+				padding:10px;
+			}
+			img{
+				float:right;
+				margin-left:50px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<p><img src="./photo.jpg"  width="300" height="225" alt="">フロートでレイアウトを行うと、回り込んだ文章などが少ない場合やページの最後の要素がフロート対象の場合、フロートした要素が親のボックスをはみ出して表示されてしまいます。</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>floatした子要素が親要素をはみ出す</title>
+		<style>
+			#wrap{
+				width:500px;
+				background-color:#ffffe0;
+			}
+			#left_contents{
+				width:120px;
+				float:left;
+			}
+			#right_contents{
+				width:350px;
+				float:right;
+				background-color:#996633;
+			}
+			p{
+				margin:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="left_contents">
+				<p>左側に配置したいコンテンツ</p>
+			</div>
+			<div id="right_contents">
+				<p>右側に配置したいコンテンツ</p>
+				<p><img src="./photo.jpg" alt="" width="300" height="225"></p>
+			</div>
+		</div>
+	</body>
+</html>
