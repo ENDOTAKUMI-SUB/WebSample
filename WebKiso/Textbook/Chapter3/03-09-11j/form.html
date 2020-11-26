@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8" />
+  <title>染屋　問い合わせ</title>
+  <script>
+  <!--
+  function func() {
+
+    var newwin = window.open
+    ( "formsample.html","win1","toolbar=no,location=no,status=no,menubar=no,scrollbar=no,width=600,height=350");
+    newwin.focus();
+  }
+  // -->
+  </script>
+ </head>
+ <body>
+  <header>
+   <h1>問い合わせ</h1>
+   <p>染屋に関しての質問や感想などがありましたら、下記のフォームよりご連絡をお願いします。</p>
+  <nav>
+    <ul>
+     <li><a href="index.html">HOME</a></li>
+     <li><a href="photo.html">Photo</a></li>
+     <li><a href="blog.html">Blog</a></li>
+     <li><a href="form.html">Contact</a></li>
+    </ul>
+  </nav>
+ </header>
+
+ <form name="form1" method="post" action="javascript:func()">
+   <p>氏名</p>
+   <input type="text" size="20" name="name1" />
+   <p>Eメール</p>
+   <input type="email" size="25" name="mail" />
+   <p>性別</p>
+   <input type="radio" name="sex" value="男性" />男性
+   <input type="radio" name="sex" value="女性" />女性
+   <p>興味のある染め物があればチェックをしてください。</p>
+   <input type="checkbox" name="cloth" value="10" />友禅
+   <input type="checkbox" name="cloth" value="20" />和更紗
+   <input type="checkbox" name="cloth" value="30" />藍染め
+   <p>メッセージ内容</p>
+   <textarea name="message" cols="60" rows="4"></textarea>
+   <br />
+   <input type="submit" value="送信" />
+ </form>
+
+ <footer>
+  <p><small>&copy; 2015 染屋 All Rights Reserved.</small></p>
+ </footer>
+ </body>
+</html>
