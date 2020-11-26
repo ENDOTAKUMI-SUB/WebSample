@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*ヘッダー*/
+
+h1 {
+    background-color: #ff8c00;
+    color: #ffffff;
+    font-size: 1.8em;
+    width: 750px;
+}
+
+/* コンテンツ */
+h2 {
+    font-size: 1.4em;
+    color: #0000cd;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #1e90ff;
+}
+
+.device {
+    padding-left: 30px;
+}
+
+article p {
+    text-indent: 1em;
+}
+
+/* ナビ */
+a:hover {
+    color: #ff0000;
+}
+
+/* フッター */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 760px;
+}

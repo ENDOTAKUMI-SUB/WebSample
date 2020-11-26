@@ -1,2 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
+
+p.text01 {
+    font-size: 20px;
+}
+
+p.text02 {
+    font-size: 150%;
+}
+
+p.text03 {
+    font-size: xx-large;
+}
+
+p.color01 {
+    color: lime;
+}
+
+p.color02 {
+    color: #00ff00;
+}
+
+p.color03 {
+    color: #0f0;
+}
+
+p.bold01 {
+    font-weight: 200;
+}
+
+p.bold02 {
+    font-weight: bold;
+}
+
+small {
+    font-style: italic;
+}
+
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: 'メイリオ', 'Meiryo', 'MS　ゴシック', Osaka;
+}

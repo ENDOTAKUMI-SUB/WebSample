@@ -1,2 +1,23 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+
+h1 {
+    font-size: 180%;
+    color: #8088ef;
+}
+
+/* コンテンツ設定 */
+.summary h2 {
+    font-size: 120%;
+    color: #80c1ef;
+}
+
+/* ナビ設定 */
+nav a:hover {
+    color: red;
+}
+
+nav a:visited {
+    color: #afafaf;
+}
+
