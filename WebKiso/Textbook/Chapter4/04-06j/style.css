@@ -4,26 +4,44 @@
 /*--------------------------------
     ヘッダー
 ---------------------------------*/
-
+h1 {
+  font-size: 180%;
+  color: #8088ef;
+  text-shadow: 2px 2px 3px #999999;
+}
 /*--------------------------------
     ナビ
 ---------------------------------*/
-
+nav ul li a {
+  text-decoration: none;
+}
 /*--------------------------------
     コンテンツ
 ---------------------------------*/
 time {
-	font-family:serif;
-	font-style:italic;
-	color:#666666;
+  font-family: serif;
+  font-style: italic;
+  color: #666666;
+}
+
+.camera {
+  text-decoration: underline;
+}
+
+#blog article p {
+  text-indent: 1em;
+  line-height: 1.25em;
 }
 /*--------------------------------
     サイドバー
 ---------------------------------*/
 aside span {
-	color:orange;
-	font-weight:bold;
+  color: orange;
+  font-weight: bold;
 }
 /*--------------------------------
     フッター
 ---------------------------------*/
+footer {
+  text-align: center;
+}

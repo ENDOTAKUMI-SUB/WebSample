@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import url("reset.css");
+/* CSS Document */
+aside span {
+    color: orange;
+    font-weight: bold;
+}
+
+time {
+    font-family: 明朝体;
+    font-style: italic;
+    color: #666666;
+}

@@ -1,2 +1,78 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+
+p.line01 {
+    text-decoration: underline;
+}
+
+p.line02 {
+    text-decoration: overline;
+}
+
+p.line03 {
+    text-decoration: line-through;
+}
+
+a.line04 {
+    text-decoration: none;
+}
+
+p.text01 {
+    text-align: left;
+}
+
+p.text02 {
+    text-align: center;
+}
+
+p.text03 {
+    text-align: right;
+}
+
+p.text04 {
+    text-align: justify;
+}
+
+img.top {
+    vertical-align: top;
+}
+
+img.middle {
+    vertical-align: middle;
+}
+
+img.bottom {
+    vertical-align: bottom;
+}
+
+p.indent01 {
+    text-indent: 2em;
+}
+
+p.indent02 {
+    text-indent: -20px;
+}
+
+p.shadow01 {
+    text-shadow: 2px 2px 3px #333333;
+}
+
+p.shadow02 {
+    text-shadow: -2px -2px 3px #333333;
+}
+
+p.height01 {
+    line-height: 150%;
+}
+
+p.height02 {
+    line-height: 2em;
+}
+
+h1 {
+    letter-spacing: 1em;
+}
+
+h2 {
+    letter-spacing: -5px;
+}
