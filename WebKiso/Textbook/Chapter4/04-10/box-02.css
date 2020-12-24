@@ -1,13 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 #container {
-	width:900px;
-  display:-moz-flex;
-  display:-ms-flexbox;
-  display:-webkit-flex;
-  display:flex;
+	width:100%;
+	display:-moz-flex;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
 }
-/*@‚±‚±‚©‚ç‰º‚Í•ÏX‚¹‚¸@*/
+
 #contents {
 	width:650px;
 	background:#b1e1e3;

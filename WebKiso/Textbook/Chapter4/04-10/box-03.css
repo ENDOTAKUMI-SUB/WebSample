@@ -1,2 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
+#contents,#border {
+	width:500px;
+	background:#b1e1e3;
+	border:10px solid #999;
+	padding:50px;
+}
+#contents {
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+#border {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}

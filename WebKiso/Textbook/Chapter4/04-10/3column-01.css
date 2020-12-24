@@ -1,2 +1,31 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
+#container {
+	width:100%;
+	position:relative;
+}
+nav {
+	width:200px;
+	background:#f2f3b0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+aside {
+	width:180px;
+	background:#f7d497;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#contents {
+	background:#b1e1e3;
+	margin-left:200px;
+	margin-right:180px;
+}
+header {
+	background:#c3d893;
+}
+footer {
+	background:#e2e2e2;
+}

@@ -1,2 +1,11 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
+nav {
+	float:right;
+	width:250px;
+	background:#f7f7c8;
+}
+#contents {
+	margin-right:250px;
+	background:#b1e1e3;
+}

@@ -1,2 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
+
+.box {
+    margin: auto;
+    width: 600px;
+    background-color: #f7f1bd;
+    box-shadow: 5px 5px 3px #bfbfbf;
+}
+
+h1 {
+    background-color: #e8a8b6;
+    border-radius: 10px 10px 0 0;
+    color: #ffffff;
+}
+
+p {
+    padding:20px;
+}

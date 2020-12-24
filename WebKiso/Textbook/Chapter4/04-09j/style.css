@@ -7,7 +7,12 @@ body {
 /*--------------------------------
     レイアウト
 ---------------------------------*/
-
+#container {
+    width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding:10px 15px 10px 15px;
+}
 /*--------------------------------
     ヘッダー
 ---------------------------------*/
@@ -17,10 +22,17 @@ header {
 	padding:20px 10px;
 }
 h1 {
+    width: 400px;
+    float: left;
 	text-shadow:3px 3px 2px #999999;
 	font-size:150%;
 	color:#8088ef;
-	background:#ffffdd;  /*　background-color:#ffffdd;　でも同じ　*/
+}
+
+header p {
+    position: relative;
+    top:30px;
+    left: 10px;   /* 30pxだとなんかはみ出た👀 */
 }
 /*--------------------------------
     ナビ
