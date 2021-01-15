@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<title>JavaScript基礎</title>
+	</head> 
+	<body>
+		<header>
+			<h1>if文</h1>
+		</header>
+
+		<div id="contents">
+		<script>
+			var now = new Date();		//日時情報を生成
+			var hour = now.getHours();	//生成した日時情報の時間を取り出す
+
+			if (hour < 12) {
+				document.write("おはよう");
+			}else{
+				document.write("こんにちは");
+			}
+		</script>
+		</div>
+
+		<footer>
+			<p>JavaScript Lesson</p>
+		</footer>
+
+	</body>
+</html>
