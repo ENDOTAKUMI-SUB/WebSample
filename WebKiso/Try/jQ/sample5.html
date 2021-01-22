@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+	<head> 
+		<meta charset="utf-8">
+		<title>jQueryの基礎</title>
+		<script src="js/jquery.js"></script>
+		<script>
+			$(function(){
+				$("dt").click(function(){
+					if($("dd").css("display")=="block"){
+						$("dd").slideUp("slow");
+					}else{
+						$("dd").slideDown("slow");
+					}
+				});
+			});
+		</script>
+		<style>
+		dl{
+			width:300px;
+			margin:50px auto;
+		}
+		dl dt{
+			background:#993333;
+			cursor:pointer;
+		}
+		dl dd{
+			border:1px solid #993333;
+			height:200px;
+			margin:0;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>クリックで動作する</h1>
+		</header>
+
+		<dl>
+			<dt>タイトルバー</dt>
+			<dd>タイトルバーのクリックで、スライドアップ・スライドダウンします。</dd>
+		</dl>
+
+		<footer>
+			<p>JavaScript Lesson</p>
+		</footer>
+	</body>
+</html>

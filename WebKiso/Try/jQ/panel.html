@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>タイトル</title>
+		<script src="js/jquery.js"></script>
+		<style>
+			body {
+				background:#252422;
+			}
+			dl{
+				width:800px;
+				margin:50px auto;
+			}
+			dt {
+				line-height:35px;
+				font-size:1.3em;
+				text-indent:3em;
+				font-weight:bold;
+				color:#ffffff;
+				height:35px;
+				background:url("images/background.jpg");
+				cursor:pointer;
+			}
+			dd {
+				margin:0;
+				height:100px;
+				background:#d4d0c8;
+				padding:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<dl>
+			<dt>春</dt>
+			<dd>春よ来いはやくこい</dd>
+			<dt>夏</dt>
+			<dd>海は広いな大きいな</dd>
+			<dt>秋</dt>
+			<dd>かきねのかきねの曲がり角</dd>
+			<dt>冬</dt>
+			<dd>冬だよ</dd>
+		</dl>
+		<script>
+			$(function () {
+				$("dd").css("display", "none");
+				$("dl dt").click(function () {
+					if ($("+dd", this).css("display") == "none") {
+						$("dd").slideUp("slow");
+						$("+dd", this).slideDown("slow");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>sample</title>
+		<script src="js/jquery.js"></script>
+		<style>
+			dl{
+				width:402px;
+				margin:50px auto;
+			}
+			dl dt{
+				background:#7CADB6;
+				cursor:pointer;
+			}
+			dl dd{
+				border:1px solid #7CADB6;
+				height:225px;
+				margin:0;
+				display: none;
+			}
+		</style>
+		<script>
+				$(function () {
+					$("dt").click(function () {
+						if ($("dd").css("display") == "block") {
+							$("dd").slideUp("slow");
+						} else {
+							$("dd").slideDown("slow");
+						}
+					});
+				});
+		</script>
+	</head>
+	<body>
+		<dl>
+			<dt>風景</dt>
+			<dd>
+					<img src="images/view.jpg" />
+			</dd>
+		</dl>
+	</body>
+</html>

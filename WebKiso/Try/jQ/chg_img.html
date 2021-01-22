@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>sample</title>
+		<script src="js/jquery.js"></script>
+		<script>
+			$(function(){
+				$(".haru").click(function(){
+					$("img").attr("src","images/haru.jpg").attr("alt","春の風景");
+				});
+				$(".natsu").click(function () {
+					$("img").attr("src", "images/natsu.jpg").attr("alt", "夏の風景");
+				});
+				$(".aki").click(function () {
+					$("img").attr("src", "images/aki.jpg").attr("alt", "秋の風景");
+				});
+				$(".huyu").click(function () {
+					$("img").attr("src", "images/huyu.jpg").attr("alt", "冬の風景");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<button class="haru">春</button>
+		<button class="natsu">夏</button>
+		<button class="aki">秋</button>
+		<button class="huyu">冬</button>
+
+		<p><img src="images/haru.jpg" alt="春の風景"></p>
+	</body>
+</html>
