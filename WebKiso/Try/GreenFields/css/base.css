@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#container {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 48px;
+	font-weight:bold;
+	padding: 20px;
+	border: 1px solid #666;
+}
+header img{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+footer {
+	padding: 20px;
+	border: 1px solid #666;
+	margin-top: 30px;
+	clear: both;
+}
+#main {
+	overflow:hidden;
+}
+footer p {
+	font-size:12px;
+}
+nav ul {
+	border-top:1px none #666;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:1px solid #666;
+	margin-top:0px;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#666;
+}
+nav ul li a {
+	font-size:12px;
+	color: #000;
+	text-decoration:none;
+	width:120px;
+	display:block;
+	text-align:center;
+	line-height:34px;
+}
+nav ul li a:hover {
+	background-color:#fdd035;
+}

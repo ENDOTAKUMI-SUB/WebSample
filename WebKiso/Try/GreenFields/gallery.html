@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>Green Fields | ギャラリー</title>
+		<script src="js/jquery.js"></script>
+
+		<script>
+			$(function () {
+				$("body").append("<div id='glayLayer'></div><div id='overLayer'></div>");
+
+				$("#glayLayer").click(function () {
+					$(this).hide()
+					$("#overLayer").hide();
+				});
+
+
+				$("a.modal").click(function () {
+					$("#glayLayer").show();
+					$("#overLayer").show().html("<p><img src='" + $(this).attr("href")
+						+ "'>" + "<img src='images/close.png' class='close'></p>");
+					return false;
+					
+				});
+
+				$(document).on('click', '.close', function () {
+					$("#glayLayer").hide();
+					$("#overLayer").hide();
+				});
+
+
+			});
+		</script>
+		
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+		<body>
+		<div id="container">
+			<header>
+				<h1>Green Fields</h1>
+				<nav>
+					<ul>
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">ギャラリー</a></li>
+						<li><a href="#">イベント案内</a></li>
+						<li><a href="#">お問い合わせ</a></li>
+						<li><a href="#">ブログ</a></li>
+					</ul>
+				</nav>
+
+				<p><img src="images/head_gallery.jpg" width="950" height="150" alt="ギャラリー"></p>
+			</header>
+			
+			<div id="main">
+				<p>Green Fieldsでは四季折々の自然の風景を撮影し、記録として残すとともに、イベントなどで展示しています。ここではギャラリーの中からお気に入りの写真をピックアップしました。</p>
+				<div id="thum"  class="clearfix">
+					<h2>季節の花</h2>
+					<ul>
+						<li><a href="images/f_01.jpg" class="modal"><img src="images/f_01.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/f_02.jpg" class="modal"><img src="images/f_02.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/f_03.jpg" class="modal"><img src="images/f_03.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/f_04.jpg" class="modal"><img src="images/f_04.jpg" alt="" width="128" height="96"></a></li>
+					</ul>
+					<h2 class="clear">森</h2>
+					<ul>
+						<li><a href="images/t_01.jpg" class="modal"><img src="images/t_01.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/t_02.jpg" class="modal"><img src="images/t_02.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/t_03.jpg" class="modal"><img src="images/t_03.jpg" alt="" width="128" height="96"></a></li>
+						<li><a href="images/t_04.jpg" class="modal"><img src="images/t_04.jpg" alt="" width="128" height="96"></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<footer>
+				<p>Copyright &copy; Green Fields, All Rights Reserved.</p>
+			</footer>
+		</div>
+</body>
+</html>

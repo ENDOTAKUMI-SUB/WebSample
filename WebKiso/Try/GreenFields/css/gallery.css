@@ -1,0 +1,47 @@
+@charset "utf-8";
+#main ul li {
+	float: left;
+}
+#main ul li img{
+	border:0;
+	margin:10px;
+}
+#thum{
+	margin-left: 20px;
+}
+.clear{
+	clear:both;
+}
+#main #thum h2 {
+	border-bottom: 1px dotted #C60;
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+
+/*　閉じるボタンのスタイル　*/
+#overLayer img.close{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	cursor:pointer;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Green Fields</title>
+	<script src="js/jquery.js"></script>
+	<script>
+
+				$(function () {
+					$("ul.panel li:not(" + $("ul.tab li a.selected").attr("href") + ")").hide();
+				$("ul.tab li a").click(function () {
+					$("ul.tab li a.selected").removeClass("selected");
+					$(this).addClass("selected");
+					$("ul.panel li").css("display","none");
+					$($(this).attr("href")).css("display","block");
+
+					return false;
+				});
+			});
+			
+
+	</script>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="container">
+	<header class="basicinfo" id="header">
+		<h1>Green Fields</h1>
+	</header>
+	<nav id="nav">
+	<ul>
+		<li><a href="index.html">トップ</a></li>
+		<li><a href="#">ギャラリー</a></li>
+		<li><a href="#">イベント案内</a></li>
+		<li><a href="#">お問い合わせ</a></li>
+		<li><a href="#">ブログ</a></li>
+	</ul>
+	</nav>
+	<p><img src="images/head.jpg" width="950" height="300" alt="『自然と遊ぶ、自然を楽しむ』"></p>
+	<article id="main">
+		<section>
+		<ul class="tab">
+			<li><a href="#tab1" class="selected">最新ニュース</a></li>
+			<li><a href="#tab2">イベント情報</a></li>
+			<li><a href="#tab3">季節の花草</a></li>
+			<li><a href="#tab4">季節の野鳥</a></li>
+			<li><a href="#tab5">森の生き物</a></li>
+			<li><a href="#tab6">営業時間</a></li>
+		</ul>
+		<ul class="panel">
+				<li id="tab1">
+					2019.06.10　Green Fieldsの第３回の写真展が開催されます。今回は中央市民ギャラリーでの開催です。<br>
+					2019.06.05　「山の講習会」が開催されます。山でのマナーや危険なことなどをレクチャーする入門者向けの講習会です。<br>
+					2019.06.01　山岳月例会が開催されます。毎月恒例のお楽しみ抽選会もあります。</2019.06.10>
+				</li>
+			<li id="tab2">
+				イベント案内では最新のインベントの情報をお届けしています。<br >
+				イベント案内では最新のインベントの情報をお届けしています。<br >
+				イベント案内では最新のインベントの情報をお届けしています。<br >
+			</li>
+			<li id="tab3">
+				季節の花草を紹介します。<br >
+				季節の花草を紹介します。<br >
+				季節の花草を紹介します。<br >
+			</li>
+			<li id="tab4">
+				季節の野鳥を紹介します。<br >
+				季節の野鳥を紹介します。<br >
+				季節の野鳥を紹介します。<br >
+			</li>
+			<li id="tab5">
+				森の生き物を紹介します。<br >
+				森の生き物を紹介します。<br >
+				森の生き物を紹介します。<br >
+			</li>
+			<li id="tab6">
+				営業時間を紹介します。<br >
+				営業時間を紹介します。<br >
+				営業時間を紹介します。<br >
+			</li>
+
+		</ul>
+		</section>
+		<section class="subject" id="subject01">
+			<h2><img src="images/gallery.jpg" width="300" height="280" alt="ギャラリー"></h2>
+			<p>野山で撮り溜めた写真をまとめました</p>
+			<p>Green Fieldsのフォトギャラリーです。<br>
+			四季折々の自然の風景を撮影し、記録として残すとともに、イベントなどで展示しています。ここではギャラリーの中からお気に入りの写真をピックアップしました。</p>
+		</section>
+		<section class="subject" id="subject02">
+			<h2><img src="images/event.jpg" width="300" height="280" alt="イベント案内"></h2>
+			<p>最新のイベント情報をお届けします</p>
+			<p>イベント案内では最新のイベントの情報をお届けしています。<br>
+			季節を堪能するイベントや、毎月恒例のお楽しみ抽選会もあります。ふるってご参加ください。</p>
+		</section>
+		<section class="subject" id="subject03">
+			<h2><img src="images/contact.jpg" width="300" height="280" alt="お問い合わせ"></h2>
+			<p>ご意見・ご感想などをお寄せください</p>
+			<p>ギャラリーやイベントについてのお問い合わせもこちらからどうぞ。<br>
+			折り返しメールにてご連絡いたします。</p>
+		</section>
+	</article>
+	<footer class="basicinfo" id="footer">
+		<p>Copyright &copy; Green Fields, All Rights Reserved.</p>
+	</footer>
+</div>
+</body>
+</html>

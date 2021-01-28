@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+img	{
+	vertical-align: bottom;
+}
+.basicinfo {
+	padding: 20px;
+	border: 1px solid #666;
+}
+#header h1 , #footer p{
+	margin: 0px;
+}
+#header h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 48px;
+}
+#footer p {
+	font-size: 12px;
+}
+#container {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.subject {
+	width: 300px;
+	float: left;
+	margin-right: 25px;
+}
+.subject h2+p {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+.subject p+p {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+#footer {
+	margin-top: 30px;
+	clear: both;
+}
+#main {
+	overflow: hidden;
+}
+.subject h2 {
+	margin-top: 0px;
+}
+#subject03 {
+	margin-right: 0px;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	margin-top: 0px;
+	overflow: hidden;
+}
+#nav ul li {
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666;
+}
+#nav ul li a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	width: 120px;
+	display: block;
+	text-align: center;
+	line-height: 34px;
+}
+#nav ul li a:hover {
+	background-color: #FDD035;
+}
+
+
+			ul.tab{
+				padding:0;
+			}
+			ul.tab li{
+				list-style-type:none;
+				width:156.3px;
+				height:40px;
+				float:left;
+				border:1px solid #C8D6DF;
+			}
+			ul.tab li a{
+				outline:none;
+				display:block;
+				color:#333;
+				line-height:40px;
+				text-align:center;
+			}
+			ul.tab li a.selected{
+				text-decoration:none;
+				color:#FFF;
+				cursor:default;
+				background-color: #3299CB;
+			}
+			ul.panel{
+				clear:both;
+				border:1px solid #C8D6DF;
+				border-top:none;
+				padding:0;
+				background-color: #FFFFEF;
+			}
+			ul.panel li{
+				list-style-type:none;
+				padding:10px;
+				color:red;
+				line-height:150%;
+				
+			}
